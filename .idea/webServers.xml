@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aecec337-665f-430e-97e1-b9243825fe5f" name="224" url="http://192.168.2.224">
+        <fileTransfer host="192.168.2.224" port="22" rootFolder="/home" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bb751abf-5421-4888-a6a9-436b5d6ee2da" name="200" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="20001" rootFolder="/echnweb/tongji_data" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="20001" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b272f51d-fa73-44e3-a216-3da3af30560f" name="160" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="20160" rootFolder="/echnlog/logs/promotion/rest" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="20160" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9039a9a5-b172-441d-bbdf-ba85e4eecc09" name="200zhangrui" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="20001" rootFolder="/echnweb/zhangrui/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="20001" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="58a2acff-5467-4b64-b140-a5ee7608ade7" name="47tongweb" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="1477" rootFolder="/tongweb/hsc" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="1477" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
